@@ -18,7 +18,7 @@ const App = () => {
     event.preventDefault();
     const errors = {};
     if (!formData.email) {
-      errors.email = 'Email is required';
+      errors.email = 'Email is    required';
     }
     if (!formData.name) {
       errors.name = 'Name is required';
